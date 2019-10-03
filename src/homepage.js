@@ -33,13 +33,9 @@ class App extends Component{
      }
     return(
       <div style = {{ height: '100%', width:'100%' }}>
-          <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
+          {/* <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
           <SideDrawer show={this.state.sideDrawerOpen}/>
-          {/* <div>Hello Aayushi</div> */}
-        {/* <div style={{marginTop: '64px', display:'flex'}}> */}
-        
-        {/* <div className="main-heading">Hello Aayushi!!! </div> */}
-       {/* </div> */}
+          <div></div> */}
       </div>
     );
   }
